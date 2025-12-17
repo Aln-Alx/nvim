@@ -1,4 +1,6 @@
 local options = {
+	
+	termguicolors = true,
 
 	undofile = true,
 	cursorline = true, --highlight line
