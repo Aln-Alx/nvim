@@ -10,6 +10,7 @@ local options = {
 	clipboard = "unnamedplus",
 	history = 25,
 	swapfile = false,
+	fillchars = {eob = " "},
 
 	number = true, 
 	relativenumber = false,
