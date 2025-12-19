@@ -5,12 +5,21 @@ return {
 	{"rcarriga/nvim-notify"},
 	{
 		"nvim-lualine/lualine.nvim",
-		dependencies = { 'nvim-tree/nvim-web-devicons'},
 		opts = {}
 	},
 	{
 		"catgoose/nvim-colorizer.lua",
 		event = "BufReadPre",
 		opts = {},
-	}	
+	},
+	{
+		"windwp/nvim-autopairs",
+		event = "InsertEnter",
+		config = true
+	},
+	{
+		"romgrk/barbar.nvim",
+		init = function() vim.g.barbar_auto_setup = false end,
+	}
+
 }
