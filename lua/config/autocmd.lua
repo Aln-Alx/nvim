@@ -11,6 +11,8 @@ vim.api.nvim_create_autocmd("FileType", {
 vim.api.nvim_create_autocmd("BufWritePre", {
 	pattern = "*",
 	callback = function()
-		vim.notify("Would you like to format?")
+		vim.notify(" Would you like to format? \n [ <Leader>cf to format ]", "info", {
+			title = " conform.nvim",
+		} )
 	end,	
 })
