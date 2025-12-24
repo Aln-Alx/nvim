@@ -2,7 +2,14 @@ return {
 	{"nvim-tree/nvim-web-devicons"},
 	{"lewis6991/gitsigns.nvim"},
 	{"folke/which-key.nvim"},
-	{"rcarriga/nvim-notify"},
+	{
+		"rcarriga/nvim-notify",
+		opts = {},
+		config = function()
+			local notify = require("notify")
+				vim.notify = notify
+		end,
+	},
 	{
 		"nvim-lualine/lualine.nvim",
 		opts = {}
