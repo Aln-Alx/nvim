@@ -6,3 +6,11 @@ vim.api.nvim_create_autocmd("FileType", {
   end,
 })
 
+
+
+vim.api.nvim_create_autocmd("BufWritePre", {
+	pattern = "*",
+	callback = function()
+		vim.notify("Would you like to format?")
+	end,	
+})
