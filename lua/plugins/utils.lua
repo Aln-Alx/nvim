@@ -3,6 +3,11 @@ return {
 	{"lewis6991/gitsigns.nvim"},
 	{"folke/which-key.nvim"},
 	{
+		"vyfor/cord.nvim",
+		build = ":Cord update",
+		opts = {}
+	},
+	{
 		"rcarriga/nvim-notify",
 		opts = {},
 		config = function()
