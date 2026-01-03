@@ -13,7 +13,7 @@ local options = {
 	fillchars = {eob = " "},
 
 	number = true, 
-	relativenumber = false,
+	relativenumber = true,
 	numberwidth = 4,
 	spelllang = "en_gb",
 	spell = true,
