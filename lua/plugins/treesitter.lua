@@ -5,7 +5,9 @@ return {
 	build = ":TSUpdate", -- Automatically update parsers on plugin update
 	branch = 'master',
     opts = {
-      ensure_installed = {"c", "lua", "vim", "vimdoc", "query", "markdown", "markdown_inline",},
+      ensure_installed = {"c", "lua", "rust", "zig", "vim", "vimdoc", "query", "markdown", "markdown_inline",},
+	  highlight = {enable = true},
+	  indent = {enable = true},
     },
   },
 }
