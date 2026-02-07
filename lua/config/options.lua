@@ -12,11 +12,17 @@ local options = {
 	swapfile = false,
 	fillchars = {eob = " "},
 
+	ignorecase = true
+	smartcase = true
+
 	number = true, 
 	relativenumber = true,
 	numberwidth = 4,
 	spelllang = "en_gb",
 	spell = true,
+
+	winborder = 'rounded'
+	
 	-- [Indentation stuff] --
 	smarttab = true,
 	cindent = true,
