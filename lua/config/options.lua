@@ -12,8 +12,8 @@ local options = {
 	swapfile = false,
 	fillchars = {eob = " "},
 
-	ignorecase = true
-	smartcase = true
+	ignorecase = true,
+	smartcase = true,
 
 	number = true, 
 	relativenumber = true,
@@ -21,7 +21,7 @@ local options = {
 	spelllang = "en_gb",
 	spell = true,
 
-	winborder = 'rounded'
+	winborder = 'rounded',
 	
 	-- [Indentation stuff] --
 	smarttab = true,
