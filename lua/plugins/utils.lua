@@ -2,6 +2,7 @@ return {
 	{"nvim-tree/nvim-web-devicons"},
 	{"lewis6991/gitsigns.nvim"},
 	{"folke/which-key.nvim"},
+	{ "nvim-mini/mini.nvim", version = "*" },
 	{
 		"vyfor/cord.nvim",
 		build = ":Cord update",
