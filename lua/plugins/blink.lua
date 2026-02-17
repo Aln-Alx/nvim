@@ -34,6 +34,7 @@ return {
 
 		["<Tab>"] = {"select_next", "fallback"},
 		["<S-Tab>"] = {"select_prev", "fallback"},
+		["<CR>"] = {"accept", "fallback"},
 
       },
 
@@ -46,7 +47,7 @@ return {
       },
 
       sources = {
-        default = { "lsp", "path", "snippets" },
+        default = { "lsp", "path", "snippets", "buffer" },
       },
 
       snippets = { preset = "luasnip" },
